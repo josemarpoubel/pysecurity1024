@@ -1,5 +1,3 @@
----
-
 # PySecurity1024 🛡️
 
 **The Entropy Backbone for Supreme Intelligence Systems.**
