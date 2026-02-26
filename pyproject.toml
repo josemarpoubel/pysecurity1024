@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysecurity1024"
+version = "0.1.0"
+authors = [
+  { name="Josemar Poubel L.", email="josemarpoubel@msn.com" },
+]
+description = "Entropy engine and semantic dissolution for high-security systems"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security :: Cryptography",
+    "Intended Audience :: Developers",
+]
+dependencies = [
+    "cryptography",
+    "pycryptodome",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/josemarpoubel/pysecurity1024"
+"Bug Tracker" = "https://github.com/josemarpoubel/pysecurity1024/issues"
+"Documentation" = "https://github.com/josemarpoubel/pysecurity1024/blob/main/docs/Entropy.md"
+
+[tool.setuptools]
+py-modules = ["pysecurity1024", "anthropy"]

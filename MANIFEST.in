@@ -1,0 +1,20 @@
+# MANIFEST.in
+
+# Includes root files
+include LICENSE
+include README.md
+include requirements.txt
+include pyproject.toml
+
+# Includes technical documentation
+recursive-include docs *.md
+
+# Includes visual assets (Banners, Logos)
+recursive-include assets *
+
+# Excludes cache and virtual environment files
+global-exclude *.py[cod]
+global-exclude __pycache__
+global-exclude .DS_Store
+global-exclude venv/
+global-exclude .venv/

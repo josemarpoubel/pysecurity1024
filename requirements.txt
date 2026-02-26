@@ -1,0 +1,6 @@
+# Pure Python environment for the Protocol (PMC)
+# Entropy without native dependencies
+
+cryptography
+pycryptodome
+pytest
